@@ -1,7 +1,8 @@
 class User < ApplicationRecord
   has_many :teams
   has_many :messages
-  has_many :talks
+  has_many :talks, dependent: :destroy
+
 
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable and :omniauthable
