@@ -1,11 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project has as objective create a app like slack. For Installation in your workspace follow these instructions.
 
-Things you may want to cover:
+Requirements
+* Ruby 2.5
+* Rails 5.0.7.1
 
-* Ruby version
+Installation
+
+* For Instalattion you need to install a postgres database and rvm. 
 
 * System dependencies
 
